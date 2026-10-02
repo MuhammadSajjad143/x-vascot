@@ -1,0 +1,13 @@
+torch==2.5.1
+numpy==2.4.2
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+openpyxl==3.1.5
+xlrd==2.0.2
+matplotlib==3.11.2
+# only for the SHAP timing comparison (train.py stage 5)
+shap==0.51.0
+# only for source grounding (experiments/source_localisation.py)
+slither-analyzer==0.11.6
+solc-select==1.2.0

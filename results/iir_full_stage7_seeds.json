@@ -1,0 +1,60 @@
+{
+  "lstm": [
+    null,
+    null
+  ],
+  "vascot": [
+    {
+      "label": "VASCOT-s123",
+      "acc": 0.9889078498293515,
+      "prec": 0.978978978978979,
+      "rec": 0.9949135300101729,
+      "f1": 0.9868819374369324,
+      "auc": 0.9992024594446517
+    },
+    {
+      "label": "VASCOT-s456",
+      "acc": 0.9880546075085325,
+      "prec": 0.9818365287588294,
+      "rec": 0.9898270600203459,
+      "f1": 0.9858156028368794,
+      "auc": 0.9986814793442976
+    }
+  ],
+  "seeds": [
+    123,
+    456
+  ],
+  "summary": {
+    "acc": {
+      "lstm_mean": NaN,
+      "lstm_std": NaN,
+      "vascot_mean": 0.988481228668942,
+      "vascot_std": 0.0004266211604095349
+    },
+    "prec": {
+      "lstm_mean": NaN,
+      "lstm_std": NaN,
+      "vascot_mean": 0.9804077538689042,
+      "vascot_std": 0.0014287748899252106
+    },
+    "rec": {
+      "lstm_mean": NaN,
+      "lstm_std": NaN,
+      "vascot_mean": 0.9923702950152594,
+      "vascot_std": 0.0025432349949134903
+    },
+    "f1": {
+      "lstm_mean": NaN,
+      "lstm_std": NaN,
+      "vascot_mean": 0.9863487701369059,
+      "vascot_std": 0.0005331673000265047
+    },
+    "auc": {
+      "lstm_mean": NaN,
+      "lstm_std": NaN,
+      "vascot_mean": 0.9989419693944747,
+      "vascot_std": 0.0002604900501770313
+    }
+  }
+}

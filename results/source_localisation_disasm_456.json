@@ -1,0 +1,1340 @@
+{
+  "mode": "disasm",
+  "seed": 456,
+  "per_contract": [
+    {
+      "row": 1360,
+      "cls": "greedy",
+      "address": "0xb9a6b8ca6763f7c4fe709d3306c31d769524e305",
+      "top_share": {
+        "eth_send": 0.32727272727272727,
+        "payable": 0.0,
+        "other_custom": 0.41363636363636364,
+        "std_library": 0.05,
+        "compiler": 0.20909090909090908,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.21366742596810934,
+        "payable": 0.0,
+        "other_custom": 0.33006833712984057,
+        "std_library": 0.08997722095671981,
+        "compiler": 0.3601366742596811,
+        "metadata": 0.0061503416856492025
+      }
+    },
+    {
+      "row": 212,
+      "cls": "greedy",
+      "address": "0x1d9bf8bd5dc499735356b3b7fd5e5228430cf98d",
+      "top_share": {
+        "eth_send": 0.30456852791878175,
+        "payable": 0.0,
+        "other_custom": 0.28426395939086296,
+        "std_library": 0.01015228426395939,
+        "compiler": 0.39593908629441626,
+        "metadata": 0.005076142131979695
+      },
+      "base_share": {
+        "eth_send": 0.2461186052430644,
+        "payable": 0.0,
+        "other_custom": 0.3217103588699415,
+        "std_library": 0.08500890811911428,
+        "compiler": 0.3387630440315602,
+        "metadata": 0.008399083736319674
+      }
+    },
+    {
+      "row": 1160,
+      "cls": "greedy",
+      "address": "0x9f7c535c15a339cc95a7b0dcf4b762fdb8c5f4cf",
+      "top_share": {
+        "eth_send": 0.3299492385786802,
+        "payable": 0.0,
+        "other_custom": 0.28426395939086296,
+        "std_library": 0.01015228426395939,
+        "compiler": 0.3756345177664975,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24656138563423333,
+        "payable": 0.0,
+        "other_custom": 0.32195618950585836,
+        "std_library": 0.08507386653082018,
+        "compiler": 0.3390219052470708,
+        "metadata": 0.007386653082017321
+      }
+    },
+    {
+      "row": 1589,
+      "cls": "greedy",
+      "address": "0xd6928ee54b821d3c8695b2d9a804c4d262e8ac6a",
+      "top_share": {
+        "eth_send": 0.3163265306122449,
+        "payable": 0.0,
+        "other_custom": 0.30612244897959184,
+        "std_library": 0.01020408163265306,
+        "compiler": 0.3673469387755102,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24693877551020407,
+        "payable": 0.0,
+        "other_custom": 0.3224489795918367,
+        "std_library": 0.08520408163265306,
+        "compiler": 0.3395408163265306,
+        "metadata": 0.00586734693877551
+      }
+    },
+    {
+      "row": 1268,
+      "cls": "greedy",
+      "address": "0xad973d9711eCe03c2a3e29ADbe431Be47071Fd1F",
+      "top_share": {
+        "eth_send": 0.27358490566037735,
+        "payable": 0.0,
+        "other_custom": 0.32547169811320753,
+        "std_library": 0.07075471698113207,
+        "compiler": 0.330188679245283,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.22884160756501182,
+        "payable": 0.0,
+        "other_custom": 0.3203309692671395,
+        "std_library": 0.08416075650118203,
+        "compiler": 0.3638297872340426,
+        "metadata": 0.0028368794326241137
+      }
+    },
+    {
+      "row": 743,
+      "cls": "greedy",
+      "address": "0x66622ec81debbdf451e163e25365d6e27ead1d9e",
+      "top_share": {
+        "eth_send": 0.4555984555984556,
+        "payable": 0.0,
+        "other_custom": 0.3281853281853282,
+        "std_library": 0.20077220077220076,
+        "compiler": 0.015444015444015444,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.31268151016456924,
+        "payable": 0.0,
+        "other_custom": 0.4232333010648596,
+        "std_library": 0.14133591481122942,
+        "compiler": 0.12274927395934172,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1860,
+      "cls": "greedy",
+      "address": "0xf93983afa7078ec8278da51c66fa5d0b52775099",
+      "top_share": {
+        "eth_send": 0.29385964912280704,
+        "payable": 0.0,
+        "other_custom": 0.30701754385964913,
+        "std_library": 0.10526315789473684,
+        "compiler": 0.29385964912280704,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.23462214411247803,
+        "payable": 0.0,
+        "other_custom": 0.3187609841827768,
+        "std_library": 0.08633567662565905,
+        "compiler": 0.35500878734622143,
+        "metadata": 0.005272407732864675
+      }
+    },
+    {
+      "row": 1197,
+      "cls": "greedy",
+      "address": "0xa4690c8c98255758e87335195c5f057d6977fcae",
+      "top_share": {
+        "eth_send": 0.28761061946902655,
+        "payable": 0.0,
+        "other_custom": 0.29646017699115046,
+        "std_library": 0.11504424778761062,
+        "compiler": 0.3008849557522124,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.23638778220451528,
+        "payable": 0.0,
+        "other_custom": 0.3145196989818504,
+        "std_library": 0.08698539176626827,
+        "compiler": 0.3567950420540062,
+        "metadata": 0.005312084993359893
+      }
+    },
+    {
+      "row": 872,
+      "cls": "greedy",
+      "address": "0x78266f8782418ba5a93b02a5552421e4abf3e238",
+      "top_share": {
+        "eth_send": 0.3568904593639576,
+        "payable": 0.0,
+        "other_custom": 0.568904593639576,
+        "std_library": 0.04240282685512368,
+        "compiler": 0.03180212014134275,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2552701505757307,
+        "payable": 0.0,
+        "other_custom": 0.33693534100974315,
+        "std_library": 0.1075287865367582,
+        "compiler": 0.30026572187776795,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1454,
+      "cls": "greedy",
+      "address": "0xc552a5d408890332d3d695229cb58ccc89b60aed",
+      "top_share": {
+        "eth_send": 0.2971698113207547,
+        "payable": 0.0,
+        "other_custom": 0.330188679245283,
+        "std_library": 0.08490566037735849,
+        "compiler": 0.28773584905660377,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.22840962718263333,
+        "payable": 0.0,
+        "other_custom": 0.3197262859839547,
+        "std_library": 0.08400188768286927,
+        "compiler": 0.3631429919773478,
+        "metadata": 0.004719207173194903
+      }
+    },
+    {
+      "row": 1787,
+      "cls": "greedy",
+      "address": "0xef95a2fd08b1f2ec8a5c46f404e54c804ba8e237",
+      "top_share": {
+        "eth_send": 0.33505154639175255,
+        "payable": 0.0,
+        "other_custom": 0.29381443298969073,
+        "std_library": 0.020618556701030927,
+        "compiler": 0.35051546391752575,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24948453608247423,
+        "payable": 0.0,
+        "other_custom": 0.31804123711340204,
+        "std_library": 0.08608247422680412,
+        "compiler": 0.3420103092783505,
+        "metadata": 0.004381443298969072
+      }
+    },
+    {
+      "row": 67,
+      "cls": "greedy",
+      "address": "0x093edcfe1bdb0bb6a93ad219d0f8b8e1c382af0e",
+      "top_share": {
+        "eth_send": 0.27137546468401486,
+        "payable": 0.0,
+        "other_custom": 0.6728624535315985,
+        "std_library": 0.03717472118959108,
+        "compiler": 0.01858736059479554,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2655262179248791,
+        "payable": 0.0,
+        "other_custom": 0.39921904053551505,
+        "std_library": 0.12030494607660841,
+        "compiler": 0.2149497954629974,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 977,
+      "cls": "greedy",
+      "address": "0x86E7d3D4Ea22eDDf73B718d601e296Ffdd4D501e",
+      "top_share": {
+        "eth_send": 0.3145539906103286,
+        "payable": 0.0,
+        "other_custom": 0.30985915492957744,
+        "std_library": 0.07511737089201878,
+        "compiler": 0.29577464788732394,
+        "metadata": 0.004694835680751174
+      },
+      "base_share": {
+        "eth_send": 0.2278719397363465,
+        "payable": 0.0,
+        "other_custom": 0.3189736346516008,
+        "std_library": 0.08380414312617702,
+        "compiler": 0.3622881355932203,
+        "metadata": 0.007062146892655367
+      }
+    },
+    {
+      "row": 1544,
+      "cls": "greedy",
+      "address": "0xD15b43456aD86e35D8D2a2dD05578b8092ff0EA5",
+      "top_share": {
+        "eth_send": 0.2602040816326531,
+        "payable": 0.0,
+        "other_custom": 0.2755102040816326,
+        "std_library": 0.025510204081632654,
+        "compiler": 0.4387755102040816,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24757033248081842,
+        "payable": 0.0,
+        "other_custom": 0.3235294117647059,
+        "std_library": 0.08542199488491048,
+        "compiler": 0.33964194373401535,
+        "metadata": 0.0038363171355498722
+      }
+    },
+    {
+      "row": 1408,
+      "cls": "greedy",
+      "address": "0xbf69e3748c77d733ddff11c9c442591b8837ff27",
+      "top_share": {
+        "eth_send": 0.11507936507936507,
+        "payable": 0.0,
+        "other_custom": 0.8849206349206349,
+        "std_library": 0.0,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.3191489361702128,
+        "payable": 0.0,
+        "other_custom": 0.6808510638297872,
+        "std_library": 0.0,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1252,
+      "cls": "greedy",
+      "address": "0xaAD4e0Cff37ce7812E723778D4a5FE7074FA11fe",
+      "top_share": {
+        "eth_send": 0.3494809688581315,
+        "payable": 0.0,
+        "other_custom": 0.25951557093425603,
+        "std_library": 0.10380622837370242,
+        "compiler": 0.28719723183391005,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2638334778837814,
+        "payable": 0.0,
+        "other_custom": 0.21856027753686036,
+        "std_library": 0.19375542064180398,
+        "compiler": 0.3202081526452732,
+        "metadata": 0.003642671292281006
+      }
+    },
+    {
+      "row": 1649,
+      "cls": "greedy",
+      "address": "0xdc90ce622e9ca8b2a16119d54dac661c7df9395d",
+      "top_share": {
+        "eth_send": 0.22790697674418606,
+        "payable": 0.0,
+        "other_custom": 0.4372093023255814,
+        "std_library": 0.004651162790697674,
+        "compiler": 0.3302325581395349,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2331002331002331,
+        "payable": 0.0,
+        "other_custom": 0.31771561771561774,
+        "std_library": 0.08205128205128205,
+        "compiler": 0.36037296037296035,
+        "metadata": 0.00675990675990676
+      }
+    },
+    {
+      "row": 597,
+      "cls": "greedy",
+      "address": "0x54ebcce87efac82ce965b3156c59a9399cd11d04",
+      "top_share": {
+        "eth_send": 0.25118483412322273,
+        "payable": 0.0,
+        "other_custom": 0.4312796208530806,
+        "std_library": 0.023696682464454975,
+        "compiler": 0.2890995260663507,
+        "metadata": 0.004739336492890996
+      },
+      "base_share": {
+        "eth_send": 0.25582501188777934,
+        "payable": 0.0,
+        "other_custom": 0.2677127912505944,
+        "std_library": 0.08107465525439848,
+        "compiler": 0.39015691868758917,
+        "metadata": 0.005230622919638612
+      }
+    },
+    {
+      "row": 675,
+      "cls": "greedy",
+      "address": "0x5e8fa53f4b8fb8fd7529285fe7ed210ae67ce0e6",
+      "top_share": {
+        "eth_send": 0.29385964912280704,
+        "payable": 0.0,
+        "other_custom": 0.3026315789473684,
+        "std_library": 0.10526315789473684,
+        "compiler": 0.29385964912280704,
+        "metadata": 0.0043859649122807015
+      },
+      "base_share": {
+        "eth_send": 0.23462214411247803,
+        "payable": 0.0,
+        "other_custom": 0.3187609841827768,
+        "std_library": 0.08633567662565905,
+        "compiler": 0.35500878734622143,
+        "metadata": 0.005272407732864675
+      }
+    },
+    {
+      "row": 281,
+      "cls": "greedy",
+      "address": "0x264433caf2a478d1bb8f7cd96107797e0dfd2bb3",
+      "top_share": {
+        "eth_send": 0.2651162790697674,
+        "payable": 0.0,
+        "other_custom": 0.39069767441860465,
+        "std_library": 0.10232558139534884,
+        "compiler": 0.24186046511627907,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.22038631603444264,
+        "payable": 0.0,
+        "other_custom": 0.33651384686990926,
+        "std_library": 0.0833139399581103,
+        "compiler": 0.35559692808936466,
+        "metadata": 0.004188969048173144
+      }
+    },
+    {
+      "row": 1889,
+      "cls": "greedy",
+      "address": "0xfd0cda055c50d3b9b803263267fc4650e107c2b2",
+      "top_share": {
+        "eth_send": 0.3026315789473684,
+        "payable": 0.0,
+        "other_custom": 0.3026315789473684,
+        "std_library": 0.08771929824561403,
+        "compiler": 0.3026315789473684,
+        "metadata": 0.0043859649122807015
+      },
+      "base_share": {
+        "eth_send": 0.23421052631578948,
+        "payable": 0.0,
+        "other_custom": 0.31820175438596493,
+        "std_library": 0.0861842105263158,
+        "compiler": 0.3543859649122807,
+        "metadata": 0.007017543859649123
+      }
+    },
+    {
+      "row": 496,
+      "cls": "greedy",
+      "address": "0x4661904C37BF96868eB437Bb085a023f65366d00",
+      "top_share": {
+        "eth_send": 0.29385964912280704,
+        "payable": 0.0,
+        "other_custom": 0.3026315789473684,
+        "std_library": 0.10526315789473684,
+        "compiler": 0.29385964912280704,
+        "metadata": 0.0043859649122807015
+      },
+      "base_share": {
+        "eth_send": 0.23462214411247803,
+        "payable": 0.0,
+        "other_custom": 0.3187609841827768,
+        "std_library": 0.08633567662565905,
+        "compiler": 0.35500878734622143,
+        "metadata": 0.005272407732864675
+      }
+    },
+    {
+      "row": 804,
+      "cls": "greedy",
+      "address": "0x6e93e496972ccfbc4d58b1cd86894dfe7761236a",
+      "top_share": {
+        "eth_send": 0.4555984555984556,
+        "payable": 0.0,
+        "other_custom": 0.3281853281853282,
+        "std_library": 0.20077220077220076,
+        "compiler": 0.015444015444015444,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.31268151016456924,
+        "payable": 0.0,
+        "other_custom": 0.4232333010648596,
+        "std_library": 0.14133591481122942,
+        "compiler": 0.12274927395934172,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1167,
+      "cls": "greedy",
+      "address": "0xa0146a4daa4b4be5cbc7c6e7b00b0b0f693827b1",
+      "top_share": {
+        "eth_send": 0.3163265306122449,
+        "payable": 0.0,
+        "other_custom": 0.29081632653061223,
+        "std_library": 0.01020408163265306,
+        "compiler": 0.3826530612244898,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24725415070242657,
+        "payable": 0.0,
+        "other_custom": 0.32286079182630906,
+        "std_library": 0.08531289910600255,
+        "compiler": 0.3399744572158365,
+        "metadata": 0.004597701149425287
+      }
+    },
+    {
+      "row": 615,
+      "cls": "greedy",
+      "address": "0x57158c8c99c09802e9ae1fb8dcf7df4a181759e9",
+      "top_share": {
+        "eth_send": 0.2783018867924528,
+        "payable": 0.0,
+        "other_custom": 0.33962264150943394,
+        "std_library": 0.08018867924528301,
+        "compiler": 0.2971698113207547,
+        "metadata": 0.0047169811320754715
+      },
+      "base_share": {
+        "eth_send": 0.22851746931067043,
+        "payable": 0.0,
+        "other_custom": 0.31987724268177525,
+        "std_library": 0.08404154863078375,
+        "compiler": 0.363314447592068,
+        "metadata": 0.00424929178470255
+      }
+    },
+    {
+      "row": 1120,
+      "cls": "greedy",
+      "address": "0x9a02e365464f659422f077614c30580ab0282fc4",
+      "top_share": {
+        "eth_send": 0.37065637065637064,
+        "payable": 0.0,
+        "other_custom": 0.3745173745173745,
+        "std_library": 0.24324324324324326,
+        "compiler": 0.011583011583011582,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.3120772946859903,
+        "payable": 0.0,
+        "other_custom": 0.42241545893719806,
+        "std_library": 0.14106280193236714,
+        "compiler": 0.12444444444444444,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1033,
+      "cls": "greedy",
+      "address": "0x8E805519c708BA092210856eAcB1Db63670D967C",
+      "top_share": {
+        "eth_send": 0.23255813953488372,
+        "payable": 0.0,
+        "other_custom": 0.4372093023255814,
+        "std_library": 0.004651162790697674,
+        "compiler": 0.32558139534883723,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.23315458148752624,
+        "payable": 0.0,
+        "other_custom": 0.3177896945674982,
+        "std_library": 0.08207041268360923,
+        "compiler": 0.36045698297971557,
+        "metadata": 0.006528328281650735
+      }
+    },
+    {
+      "row": 690,
+      "cls": "greedy",
+      "address": "0x5ff7deea9e1d4dc066f42fb0e56ecd4eb4c105d2",
+      "top_share": {
+        "eth_send": 0.24056603773584906,
+        "payable": 0.0,
+        "other_custom": 0.33962264150943394,
+        "std_library": 0.08962264150943396,
+        "compiler": 0.330188679245283,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2297711724463317,
+        "payable": 0.0,
+        "other_custom": 0.3210662892191555,
+        "std_library": 0.08398207124321774,
+        "compiler": 0.3592828497287096,
+        "metadata": 0.005897617362585515
+      }
+    },
+    {
+      "row": 1007,
+      "cls": "greedy",
+      "address": "0x8bcE6BA25f53C3601566912792467232FB595397",
+      "top_share": {
+        "eth_send": 0.2753623188405797,
+        "payable": 0.0,
+        "other_custom": 0.5978260869565217,
+        "std_library": 0.11956521739130435,
+        "compiler": 0.007246376811594203,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.26793478260869563,
+        "payable": 0.0,
+        "other_custom": 0.3695652173913043,
+        "std_library": 0.11739130434782609,
+        "compiler": 0.2451086956521739,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 175,
+      "cls": "greedy",
+      "address": "0x18f40A6347819cC7Db046a7349F79a37b075f112",
+      "top_share": {
+        "eth_send": 0.3018867924528302,
+        "payable": 0.0,
+        "other_custom": 0.32075471698113206,
+        "std_library": 0.08490566037735849,
+        "compiler": 0.29245283018867924,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.22840962718263333,
+        "payable": 0.0,
+        "other_custom": 0.3197262859839547,
+        "std_library": 0.08400188768286927,
+        "compiler": 0.3631429919773478,
+        "metadata": 0.004719207173194903
+      }
+    },
+    {
+      "row": 1543,
+      "cls": "safe",
+      "address": "0xD13017C013ae2eb708C4FCDB70B20D16ba3B64a9",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.8181818181818182,
+        "std_library": 0.06719367588932806,
+        "compiler": 0.11462450592885376,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.6607319485657764,
+        "std_library": 0.04708209693372898,
+        "compiler": 0.29218595450049456,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 989,
+      "cls": "safe",
+      "address": "0x88764243Fda6d5b098eb5b5991001ffC4d41F4b6",
+      "top_share": {
+        "eth_send": 0.00398406374501992,
+        "payable": 0.0,
+        "other_custom": 0.796812749003984,
+        "std_library": 0.199203187250996,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.020571200319552625,
+        "payable": 0.0,
+        "other_custom": 0.7851008587976832,
+        "std_library": 0.19432794088276412,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 31,
+      "cls": "safe",
+      "address": "0x0355b64d2B25eE8d3cA5705E88269927B45b428d",
+      "top_share": {
+        "eth_send": 0.028368794326241134,
+        "payable": 0.0,
+        "other_custom": 0.5673758865248227,
+        "std_library": 0.11702127659574468,
+        "compiler": 0.2872340425531915,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.1688865210442195,
+        "payable": 0.0,
+        "other_custom": 0.3830580713905168,
+        "std_library": 0.22340614455691707,
+        "compiler": 0.22464926300834664,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1550,
+      "cls": "safe",
+      "address": "0xd20077ef8f95c1c0a67e9ec3a154492488bbb965",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.9565217391304348,
+        "std_library": 0.0,
+        "compiler": 0.0,
+        "metadata": 0.043478260869565216
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.9594594594594594,
+        "std_library": 0.0,
+        "compiler": 0.0,
+        "metadata": 0.04054054054054054
+      }
+    },
+    {
+      "row": 386,
+      "cls": "safe",
+      "address": "0x354776af8692e44ed13eee1ef471f8428b86c5f7",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.5858585858585859,
+        "std_library": 0.0,
+        "compiler": 0.3939393939393939,
+        "metadata": 0.020202020202020204
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.3384146341463415,
+        "std_library": 0.0,
+        "compiler": 0.6529471544715447,
+        "metadata": 0.008638211382113821
+      }
+    },
+    {
+      "row": 222,
+      "cls": "safe",
+      "address": "0x1f0d46b9c54865b38f42112edbae4cb9528b8b28",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.582089552238806,
+        "std_library": 0.014925373134328358,
+        "compiler": 0.39800995024875624,
+        "metadata": 0.004975124378109453
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.37920718025430067,
+        "std_library": 0.13911742707554225,
+        "compiler": 0.47718773373223633,
+        "metadata": 0.004487658937920718
+      }
+    },
+    {
+      "row": 455,
+      "cls": "safe",
+      "address": "0x3f17e0f7db486ecf9868ac97e1302a0206a5fe66",
+      "top_share": {
+        "eth_send": 0.2672811059907834,
+        "payable": 0.0,
+        "other_custom": 0.37327188940092165,
+        "std_library": 0.09216589861751152,
+        "compiler": 0.2672811059907834,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.1530282015718909,
+        "payable": 0.0,
+        "other_custom": 0.42256125751271384,
+        "std_library": 0.09986130374479889,
+        "compiler": 0.32131299121590384,
+        "metadata": 0.003236245954692557
+      }
+    },
+    {
+      "row": 1278,
+      "cls": "safe",
+      "address": "0xaee4a03fa3cb2cf02c14b24745029ed0f47b6029",
+      "top_share": {
+        "eth_send": 0.2484076433121019,
+        "payable": 0.0,
+        "other_custom": 0.28662420382165604,
+        "std_library": 0.07643312101910828,
+        "compiler": 0.3821656050955414,
+        "metadata": 0.006369426751592357
+      },
+      "base_share": {
+        "eth_send": 0.32064,
+        "payable": 0.0,
+        "other_custom": 0.27296,
+        "std_library": 0.08384,
+        "compiler": 0.31616,
+        "metadata": 0.0064
+      }
+    },
+    {
+      "row": 798,
+      "cls": "safe",
+      "address": "0x6d8abbb7f2cbd300236c0cf93647d644ed2a8c24",
+      "top_share": {
+        "eth_send": 0.21962616822429906,
+        "payable": 0.0,
+        "other_custom": 0.45794392523364486,
+        "std_library": 0.028037383177570093,
+        "compiler": 0.29439252336448596,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.1689647113811638,
+        "payable": 0.0,
+        "other_custom": 0.44613227389577004,
+        "std_library": 0.056321570460387944,
+        "compiler": 0.32507595232530967,
+        "metadata": 0.0035054919373685442
+      }
+    },
+    {
+      "row": 161,
+      "cls": "safe",
+      "address": "0x16cd0ca2f06beb44c0f3cbab4b33c70d79501f44",
+      "top_share": {
+        "eth_send": 0.04564315352697095,
+        "payable": 0.0,
+        "other_custom": 0.6431535269709544,
+        "std_library": 0.04149377593360996,
+        "compiler": 0.2697095435684647,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.13517441860465115,
+        "payable": 0.0,
+        "other_custom": 0.3941029900332226,
+        "std_library": 0.10070598006644518,
+        "compiler": 0.365656146179402,
+        "metadata": 0.00436046511627907
+      }
+    },
+    {
+      "row": 117,
+      "cls": "safe",
+      "address": "0x0f00c2a4e234c626c0bfcf8424287ee82966e093",
+      "top_share": {
+        "eth_send": 0.1650943396226415,
+        "payable": 0.0,
+        "other_custom": 0.4056603773584906,
+        "std_library": 0.02358490566037736,
+        "compiler": 0.4056603773584906,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2688757396449704,
+        "payable": 0.0,
+        "other_custom": 0.32970414201183434,
+        "std_library": 0.07337278106508875,
+        "compiler": 0.3247337278106509,
+        "metadata": 0.0033136094674556214
+      }
+    },
+    {
+      "row": 383,
+      "cls": "safe",
+      "address": "0x34a4ae1d17E9c9C11cA3Ea84d7e04F288d5b7D36",
+      "top_share": {
+        "eth_send": 0.275,
+        "payable": 0.0,
+        "other_custom": 0.5125,
+        "std_library": 0.2125,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.2306407848048424,
+        "payable": 0.0,
+        "other_custom": 0.5827593404299729,
+        "std_library": 0.18659987476518472,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1857,
+      "cls": "safe",
+      "address": "0xf8c7ba3a254b130ed6d69f18d37bbabba71c28f7",
+      "top_share": {
+        "eth_send": 0.2318181818181818,
+        "payable": 0.0,
+        "other_custom": 0.2545454545454545,
+        "std_library": 0.17727272727272728,
+        "compiler": 0.33181818181818185,
+        "metadata": 0.004545454545454545
+      },
+      "base_share": {
+        "eth_send": 0.23068181818181818,
+        "payable": 0.0,
+        "other_custom": 0.2215909090909091,
+        "std_library": 0.25795454545454544,
+        "compiler": 0.28113636363636363,
+        "metadata": 0.008636363636363636
+      }
+    },
+    {
+      "row": 1399,
+      "cls": "safe",
+      "address": "0xbede1f59fa4412556fef69f1b9969f2003e3f8c1",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.4891304347826087,
+        "std_library": 0.0,
+        "compiler": 0.5,
+        "metadata": 0.010869565217391304
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.5830601092896175,
+        "std_library": 0.0,
+        "compiler": 0.4060109289617486,
+        "metadata": 0.01092896174863388
+      }
+    },
+    {
+      "row": 1128,
+      "cls": "safe",
+      "address": "0x9af28aded262b48e7bf3396388a6ac71de95053f",
+      "top_share": {
+        "eth_send": 0.028925619834710745,
+        "payable": 0.0,
+        "other_custom": 0.6033057851239669,
+        "std_library": 0.3677685950413223,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.09417133374818502,
+        "payable": 0.0,
+        "other_custom": 0.4710640945861854,
+        "std_library": 0.43476457166562954,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 630,
+      "cls": "safe",
+      "address": "0x5959f1a9ec3af7bf6fe01f1b4b613f2d89c2c2bc",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.6260869565217392,
+        "std_library": 0.008695652173913044,
+        "compiler": 0.3652173913043478,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.49151805132666376,
+        "std_library": 0.06720313179643324,
+        "compiler": 0.43823401478903873,
+        "metadata": 0.003044802087864289
+      }
+    },
+    {
+      "row": 693,
+      "cls": "safe",
+      "address": "0x6026c3be4e8257e6835da8dfd939155a96e4ed7f",
+      "top_share": {
+        "eth_send": 0.18478260869565216,
+        "payable": 0.0,
+        "other_custom": 0.11956521739130435,
+        "std_library": 0.32608695652173914,
+        "compiler": 0.3695652173913043,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.12840537595350526,
+        "payable": 0.0,
+        "other_custom": 0.20196149654921902,
+        "std_library": 0.2809662186705412,
+        "compiler": 0.3886669088267345,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1218,
+      "cls": "safe",
+      "address": "0xa6c133becbbd8c79398a6f119a3067102b4ecb6d",
+      "top_share": {
+        "eth_send": 0.003472222222222222,
+        "payable": 0.10069444444444445,
+        "other_custom": 0.7847222222222222,
+        "std_library": 0.017361111111111112,
+        "compiler": 0.09375,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.015117289313640312,
+        "payable": 0.06429192006950478,
+        "other_custom": 0.7322328410078193,
+        "std_library": 0.05004344048653345,
+        "compiler": 0.13831450912250218,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 870,
+      "cls": "safe",
+      "address": "0x77e356695bbc913A8e2F158253ac2246E5207445",
+      "top_share": {
+        "eth_send": 0.007194244604316547,
+        "payable": 0.0,
+        "other_custom": 0.9820143884892086,
+        "std_library": 0.01079136690647482,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.03642921550946799,
+        "payable": 0.0,
+        "other_custom": 0.8275924256086564,
+        "std_library": 0.13597835888187557,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 272,
+      "cls": "safe",
+      "address": "0x2591b4fd90f62dc73a96be9dba2055748b0cdf5a",
+      "top_share": {
+        "eth_send": 0.011673151750972763,
+        "payable": 0.0,
+        "other_custom": 0.7665369649805448,
+        "std_library": 0.22178988326848248,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.028476692022625316,
+        "payable": 0.0,
+        "other_custom": 0.5551004486054223,
+        "std_library": 0.4164228593719524,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 494,
+      "cls": "safe",
+      "address": "0x462f179223b405eb706c0a532ea9fb4b3a5a1855",
+      "top_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 1.0,
+        "std_library": 0.0,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.0,
+        "payable": 0.0,
+        "other_custom": 0.3455245428296439,
+        "std_library": 0.0,
+        "compiler": 0.629451395572666,
+        "metadata": 0.025024061597690085
+      }
+    },
+    {
+      "row": 836,
+      "cls": "safe",
+      "address": "0x73ca6bb29a253d0d3d45dca81e095c973bb13d9f",
+      "top_share": {
+        "eth_send": 0.28451882845188287,
+        "payable": 0.0,
+        "other_custom": 0.5564853556485355,
+        "std_library": 0.1589958158995816,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.24695761644985312,
+        "payable": 0.0,
+        "other_custom": 0.5654637012169534,
+        "std_library": 0.18757868233319344,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 544,
+      "cls": "safe",
+      "address": "0x4d2f63c0e05603bb5bf213b4839140787493f6a2",
+      "top_share": {
+        "eth_send": 0.2791666666666667,
+        "payable": 0.0,
+        "other_custom": 0.5083333333333333,
+        "std_library": 0.2125,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.23049645390070922,
+        "payable": 0.0,
+        "other_custom": 0.5830204422194409,
+        "std_library": 0.18648310387984982,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1671,
+      "cls": "safe",
+      "address": "0xdeb68a5b0669a578a44f90e7aa11ed50a9f7697c",
+      "top_share": {
+        "eth_send": 0.05701754385964912,
+        "payable": 0.0,
+        "other_custom": 0.32456140350877194,
+        "std_library": 0.618421052631579,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.1069859402460457,
+        "payable": 0.0,
+        "other_custom": 0.4244288224956063,
+        "std_library": 0.468585237258348,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1177,
+      "cls": "safe",
+      "address": "0xA1b8127F233813ae45d0d31Ff29fEfbEB3E29Eb3",
+      "top_share": {
+        "eth_send": 0.165625,
+        "payable": 0.0,
+        "other_custom": 0.3125,
+        "std_library": 0.253125,
+        "compiler": 0.26875,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.25818580604731317,
+        "payable": 0.0,
+        "other_custom": 0.31662227792574027,
+        "std_library": 0.2282625724580918,
+        "compiler": 0.19692934356885478,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1145,
+      "cls": "safe",
+      "address": "0x9D37d073BeF43A6b493623c4815366d720099037",
+      "top_share": {
+        "eth_send": 0.003676470588235294,
+        "payable": 0.15073529411764705,
+        "other_custom": 0.4742647058823529,
+        "std_library": 0.3713235294117647,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.016028002947678702,
+        "payable": 0.07921886514369934,
+        "other_custom": 0.4637067059690494,
+        "std_library": 0.4410464259395726,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1035,
+      "cls": "safe",
+      "address": "0x8eac4c80c9137d219818782e29a2c3c7b4c7c8fc",
+      "top_share": {
+        "eth_send": 0.07668711656441718,
+        "payable": 0.0,
+        "other_custom": 0.6042944785276073,
+        "std_library": 0.03680981595092025,
+        "compiler": 0.2822085889570552,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.11705069124423963,
+        "payable": 0.0,
+        "other_custom": 0.5715821812596006,
+        "std_library": 0.11152073732718894,
+        "compiler": 0.19984639016897082,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 50,
+      "cls": "safe",
+      "address": "0x062731Ae835470b1De583aC0dF88631790013bC2",
+      "top_share": {
+        "eth_send": 0.06325301204819277,
+        "payable": 0.0,
+        "other_custom": 0.5090361445783133,
+        "std_library": 0.015060240963855422,
+        "compiler": 0.4126506024096386,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.012684989429175475,
+        "payable": 0.0,
+        "other_custom": 0.7041679250981576,
+        "std_library": 0.037450921171851406,
+        "compiler": 0.24569616430081545,
+        "metadata": 0.0
+      }
+    },
+    {
+      "row": 1830,
+      "cls": "safe",
+      "address": "0xf51Cd3a8DE27D3651c0a02C4E9f244622be2dAC0",
+      "top_share": {
+        "eth_send": 0.32673267326732675,
+        "payable": 0.0,
+        "other_custom": 0.2623762376237624,
+        "std_library": 0.009900990099009901,
+        "compiler": 0.400990099009901,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.1513647642679901,
+        "payable": 0.0,
+        "other_custom": 0.40521091811414395,
+        "std_library": 0.10272952853598015,
+        "compiler": 0.3347394540942928,
+        "metadata": 0.005955334987593052
+      }
+    },
+    {
+      "row": 1352,
+      "cls": "safe",
+      "address": "0xb8f61c03a4f9688af36c2a7a8fcfbb45d366b6a1",
+      "top_share": {
+        "eth_send": 0.2791666666666667,
+        "payable": 0.0,
+        "other_custom": 0.5083333333333333,
+        "std_library": 0.2125,
+        "compiler": 0.0,
+        "metadata": 0.0
+      },
+      "base_share": {
+        "eth_send": 0.23049645390070922,
+        "payable": 0.0,
+        "other_custom": 0.5830204422194409,
+        "std_library": 0.18648310387984982,
+        "compiler": 0.0,
+        "metadata": 0.0
+      }
+    }
+  ],
+  "summary": {
+    "greedy": {
+      "n": 30,
+      "failures": {},
+      "share_top_xvascot": {
+        "eth_send": 0.3018064326626524,
+        "payable": 0.0,
+        "other_custom": 0.3858128946981936,
+        "std_library": 0.07783815538258188,
+        "compiler": 0.23351446614774563,
+        "metadata": 0.0010280511088265531
+      },
+      "share_top_random": {
+        "eth_send": 0.24952269055661624,
+        "payable": 0.0,
+        "other_custom": 0.34968424144514615,
+        "std_library": 0.09399324423557057,
+        "compiler": 0.3023938904391247,
+        "metadata": 0.004405933323542371
+      },
+      "share_base": {
+        "eth_send": 0.25185168840147987,
+        "payable": 0.0,
+        "other_custom": 0.3456534051207367,
+        "std_library": 0.09644225747846746,
+        "compiler": 0.3021322918275631,
+        "metadata": 0.0039203571717528335
+      },
+      "enrichment_xvascot": {
+        "eth_send": 1.1983498485884243,
+        "payable": 0.0,
+        "other_custom": 1.1161842729812805,
+        "std_library": 0.8070959496148324,
+        "compiler": 0.772888143585195,
+        "metadata": 0.26223404240662607
+      }
+    },
+    "safe": {
+      "n": 30,
+      "failures": {},
+      "share_top_xvascot": {
+        "eth_send": 0.11317668054729328,
+        "payable": 0.01041046995835812,
+        "other_custom": 0.5388161808447353,
+        "std_library": 0.14485425342058297,
+        "compiler": 0.19170136823319453,
+        "metadata": 0.001041046995835812
+      },
+      "share_top_random": {
+        "eth_send": 0.12343842950624628,
+        "payable": 0.005651397977394408,
+        "other_custom": 0.49791790600832836,
+        "std_library": 0.17415229030339083,
+        "compiler": 0.1977989292088043,
+        "metadata": 0.001041046995835812
+      },
+      "share_base": {
+        "eth_send": 0.11931166062990953,
+        "payable": 0.005962229277526867,
+        "other_custom": 0.5006707507937218,
+        "std_library": 0.17863584194130186,
+        "compiler": 0.19348924562894065,
+        "metadata": 0.0019302717285993233
+      },
+      "enrichment_xvascot": {
+        "eth_send": 0.9485802137844161,
+        "payable": 1.7460700475907198,
+        "other_custom": 1.076188652903212,
+        "std_library": 0.8108913185976462,
+        "compiler": 0.990759809983575,
+        "metadata": 0.5393266556264771
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "disasm": {
+    "windows": 969,
+    "mean_abs_err": 0.4303870963853456,
+    "median_rel_err": 0.012676617913920418,
+    "mean_rel_err": 0.019023729962394136
+  },
+  "iir_full_dedup": {
+    "windows": 430,
+    "mean_abs_err": 0.04826290761662084,
+    "median_rel_err": 0.004619176809677336,
+    "mean_rel_err": 0.02325188260519602
+  },
+  "iir_full_group": {
+    "windows": 412,
+    "mean_abs_err": 0.17874899332963148,
+    "median_rel_err": 0.010132465413954555,
+    "mean_rel_err": 0.022044368241464975
+  },
+  "ii4_full_dedup": {
+    "windows": 400,
+    "mean_abs_err": 0.10902204014360904,
+    "median_rel_err": 0.00797136825949489,
+    "mean_rel_err": 0.03132987488231287
+  },
+  "ii4_full_group": {
+    "windows": 381,
+    "mean_abs_err": 0.3361397939404165,
+    "median_rel_err": 0.00904284765279008,
+    "mean_rel_err": 0.034324924175950754
+  }
+}

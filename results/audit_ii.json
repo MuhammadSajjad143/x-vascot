@@ -1,0 +1,388 @@
+{
+  "iir": {
+    "dataset": "iir",
+    "rows": 13788,
+    "distinct_bytecodes": 2114,
+    "per_class": {
+      "non-vulnerable": {
+        "rows": 8006,
+        "distinct": 349,
+        "dup_rate": 0.956407694229328,
+        "mean_bytes": 545.2705470896827,
+        "pct_real_selfdestruct": 26.829877591806145,
+        "pct_call": 97.40194853859605,
+        "pct_any_ether_transfer": 99.17561828628529
+      },
+      "greedy": {
+        "rows": 5782,
+        "distinct": 1765,
+        "dup_rate": 0.6947423037011415,
+        "mean_bytes": 774.4098927706676,
+        "pct_real_selfdestruct": 2.611553095814597,
+        "pct_call": 22.79488066413006,
+        "pct_any_ether_transfer": 25.00864752680733
+      }
+    },
+    "pct_test_with_identical_bytecode_in_train": {
+      "mean": 88.03754266211602,
+      "per_seed": [
+        88.05460750853243,
+        88.90784982935153,
+        88.26791808873719,
+        87.28668941979522,
+        87.67064846416382
+      ]
+    },
+    "length_only_accuracy": {
+      "random_split": {
+        "mean": 87.38054607508532,
+        "std": 0.24193595356242084
+      },
+      "dedup_split": {
+        "mean": 83.6111111111111,
+        "std": 0.4648111258522626
+      }
+    },
+    "majority_baseline": 58.06498404409631,
+    "opcode_only_evidence": {
+      "distinct_token_values": 150,
+      "undefined_opcode_values": [
+        "b0",
+        "b1",
+        "b2",
+        "b4",
+        "b5",
+        "b6",
+        "b8",
+        "b9",
+        "ba",
+        "e1",
+        "e2",
+        "e3",
+        "fb",
+        "fc"
+      ],
+      "after_PUSH20_top5": [
+        [
+          "AND",
+          78.1
+        ],
+        [
+          "BALANCE",
+          14.6
+        ],
+        [
+          "MUL",
+          4.8
+        ],
+        [
+          "NOT",
+          1.5
+        ],
+        [
+          "ADDRESS",
+          0.3
+        ]
+      ],
+      "after_PUSH20_distinct": 61
+    },
+    "families": {
+      "threshold": 0.8,
+      "n_families": 1250,
+      "n_singletons": 680,
+      "largest_families": [
+        [
+          3138,
+          {
+            "0": 3138,
+            "1": 0
+          }
+        ],
+        [
+          1019,
+          {
+            "0": 1019,
+            "1": 0
+          }
+        ],
+        [
+          960,
+          {
+            "0": 960,
+            "1": 0
+          }
+        ],
+        [
+          679,
+          {
+            "0": 679,
+            "1": 0
+          }
+        ],
+        [
+          583,
+          {
+            "0": 0,
+            "1": 583
+          }
+        ],
+        [
+          476,
+          {
+            "0": 476,
+            "1": 0
+          }
+        ],
+        [
+          284,
+          {
+            "0": 0,
+            "1": 284
+          }
+        ],
+        [
+          267,
+          {
+            "0": 0,
+            "1": 267
+          }
+        ],
+        [
+          240,
+          {
+            "0": 240,
+            "1": 0
+          }
+        ],
+        [
+          186,
+          {
+            "0": 0,
+            "1": 186
+          }
+        ]
+      ],
+      "mixed_label_families": 5,
+      "families_per_class": {
+        "0": 251,
+        "1": 1004
+      },
+      "greedy_families": 1004,
+      "safe_families": 251,
+      "pct_rows_in_label_pure_families": 99.41253263707573
+    }
+  },
+  "ii4": {
+    "dataset": "ii4",
+    "rows": 16455,
+    "distinct_bytecodes": 2628,
+    "per_class": {
+      "non-vulnerable": {
+        "rows": 8006,
+        "distinct": 349,
+        "dup_rate": 0.956407694229328,
+        "mean_bytes": 545.2705470896827,
+        "pct_real_selfdestruct": 26.829877591806145,
+        "pct_call": 97.40194853859605,
+        "pct_any_ether_transfer": 99.17561828628529
+      },
+      "suicidal": {
+        "rows": 1207,
+        "distinct": 145,
+        "dup_rate": 0.87986743993372,
+        "mean_bytes": 988.4291632145816,
+        "pct_real_selfdestruct": 100.0,
+        "pct_call": 96.93454846727423,
+        "pct_any_ether_transfer": 100.0
+      },
+      "prodigal": {
+        "rows": 1460,
+        "distinct": 369,
+        "dup_rate": 0.7472602739726028,
+        "mean_bytes": 975.0205479452055,
+        "pct_real_selfdestruct": 4.931506849315069,
+        "pct_call": 100.0,
+        "pct_any_ether_transfer": 100.0
+      },
+      "greedy": {
+        "rows": 5782,
+        "distinct": 1765,
+        "dup_rate": 0.6947423037011415,
+        "mean_bytes": 774.4098927706676,
+        "pct_real_selfdestruct": 2.611553095814597,
+        "pct_call": 22.79488066413006,
+        "pct_any_ether_transfer": 25.00864752680733
+      }
+    },
+    "pct_test_with_identical_bytecode_in_train": {
+      "mean": 87.74839170836313,
+      "per_seed": [
+        88.20586132952108,
+        87.09792709077912,
+        87.91994281629736,
+        87.41958541815582,
+        88.09864188706219
+      ]
+    },
+    "length_only_accuracy": {
+      "random_split": {
+        "mean": 77.69120800571837,
+        "std": 0.2967911292641416
+      },
+      "dedup_split": {
+        "mean": 66.5324384787472,
+        "std": 0.46065459243789564
+      }
+    },
+    "majority_baseline": 48.65390458827104,
+    "opcode_only_evidence": {
+      "distinct_token_values": 150,
+      "undefined_opcode_values": [
+        "b0",
+        "b1",
+        "b2",
+        "b4",
+        "b5",
+        "b6",
+        "b8",
+        "b9",
+        "ba",
+        "e1",
+        "e2",
+        "e3",
+        "fb",
+        "fc"
+      ],
+      "after_PUSH20_top5": [
+        [
+          "AND",
+          78.1
+        ],
+        [
+          "BALANCE",
+          12.8
+        ],
+        [
+          "MUL",
+          4.6
+        ],
+        [
+          "NOT",
+          1.5
+        ],
+        [
+          "CALLER",
+          1.0
+        ]
+      ],
+      "after_PUSH20_distinct": 77
+    },
+    "families": {
+      "threshold": 0.8,
+      "n_families": 1543,
+      "n_singletons": 837,
+      "largest_families": [
+        [
+          3138,
+          {
+            "0": 3138,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          1019,
+          {
+            "0": 1019,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          960,
+          {
+            "0": 960,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          950,
+          {
+            "0": 0,
+            "1": 0,
+            "2": 950,
+            "3": 0
+          }
+        ],
+        [
+          679,
+          {
+            "0": 679,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          583,
+          {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 583
+          }
+        ],
+        [
+          476,
+          {
+            "0": 476,
+            "1": 0,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          286,
+          {
+            "0": 0,
+            "1": 286,
+            "2": 0,
+            "3": 0
+          }
+        ],
+        [
+          284,
+          {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 284
+          }
+        ],
+        [
+          267,
+          {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 267
+          }
+        ]
+      ],
+      "mixed_label_families": 12,
+      "families_per_class": {
+        "0": 250,
+        "1": 84,
+        "2": 218,
+        "3": 1003
+      },
+      "greedy_families": 84,
+      "safe_families": 250,
+      "pct_rows_in_label_pure_families": 97.71498024916438
+    }
+  }
+}

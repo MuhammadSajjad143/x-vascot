@@ -1,0 +1,1702 @@
+{
+  "ii4_full": {
+    "42": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.1
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.001155995786460302,
+          "saliency": 0.0,
+          "random": 0.5622108140744988
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.5704210172096889,
+            "flip": 0.55
+          },
+          "random_same_count": {
+            "dconf": 0.016499003767967223,
+            "flip": 0.016666666666666666
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.1353564405580751e-11
+      },
+      "T2_prodigal_call": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 0.9666666666666667,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 0.3333333333333333,
+          "random": 0.06666666666666667
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.034482758620689655,
+          "raw_attn": 0.034482758620689655,
+          "saliency": 0.05517241379310345,
+          "random": 0.31771159874608146
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.029997576028108597,
+            "flip": 0.05
+          },
+          "random_same_count": {
+            "dconf": 0.001216071347395579,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 0.024022399884890754
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.01701931523531045,
+        "dP_greedy_remove_random": 1.2645558779589784e-06,
+        "to_greedy_rate_release": 0.016666666666666666,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 2.216111860436976e-09
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.45,
+            "rare_corpus": 0.7333333333333333,
+            "random": 0.15,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 0.6666666666666666,
+            "rare_corpus": 0.6166666666666667,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.9666666666666667,
+            "rare_corpus": 0.95,
+            "random": 0.1,
+            "n": 60
+          },
+          "3": {
+            "xvascot": 0.08333333333333333,
+            "rare_corpus": 0.9,
+            "random": 0.06666666666666667,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.5,
+            "rare_corpus": 1.0,
+            "random": 0.03333333333333333,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.125,
+            "rare_corpus": 1.0,
+            "random": 0.125,
+            "n": 8
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.9130434782608695,
+            "random": 0.043478260869565216,
+            "n": 23
+          }
+        }
+      }
+    },
+    "123": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.05
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0,
+          "random": 0.5852082948579268
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.9156611243883769,
+            "flip": 0.9166666666666666
+          },
+          "random_same_count": {
+            "dconf": 0.006521334250768025,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.0260886685665988e-11
+      },
+      "T2_prodigal_call": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.15
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.006896551724137931,
+          "raw_attn": 0.006896551724137931,
+          "saliency": 0.006896551724137931,
+          "random": 0.1896551724137931
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.2646412561337153,
+            "flip": 0.3333333333333333
+          },
+          "random_same_count": {
+            "dconf": 0.001253358026345571,
+            "flip": 0.016666666666666666
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 2.0022757339690465e-12
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.05459375774190781,
+        "dP_greedy_remove_random": 9.958314543794481e-05,
+        "to_greedy_rate_release": 0.05,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.147778971559672e-12
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.9333333333333333,
+            "rare_corpus": 0.65,
+            "random": 0.15,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 0.9,
+            "rare_corpus": 0.5333333333333333,
+            "random": 0.1,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.15,
+            "n": 60
+          },
+          "3": {
+            "xvascot": 0.06666666666666667,
+            "rare_corpus": 0.95,
+            "random": 0.08333333333333333,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.016666666666666666,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.08333333333333333,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.3333333333333333,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 9
+          },
+          "3": {
+            "xvascot": 0.045454545454545456,
+            "rare_corpus": 1.0,
+            "random": 0.18181818181818182,
+            "n": 22
+          }
+        }
+      }
+    },
+    "456": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.08333333333333333
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0007651109410864575,
+          "random": 0.4625481235650727
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.4120982338984807,
+            "flip": 0.4
+          },
+          "random_same_count": {
+            "dconf": 8.62350066502889e-05,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 7.72836861426613e-12
+      },
+      "T2_prodigal_call": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 0.3,
+          "random": 0.23333333333333334
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.027586206896551724,
+          "raw_attn": 0.020689655172413793,
+          "saliency": 0.06206896551724138,
+          "random": 0.2827586206896552
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.13975752691427867,
+            "flip": 0.21666666666666667
+          },
+          "random_same_count": {
+            "dconf": -0.00045595566431681317,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 9.86307502365685e-13
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.0014166812086527092,
+        "dP_greedy_remove_random": 7.934375482489257e-05,
+        "to_greedy_rate_release": 0.0,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.71044359300499e-11
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.95,
+            "rare_corpus": 0.7833333333333333,
+            "random": 0.18333333333333332,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 0.95,
+            "rare_corpus": 0.4666666666666667,
+            "random": 0.08333333333333333,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.2,
+            "n": 60
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.95,
+            "random": 0.03333333333333333,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.6166666666666667,
+            "rare_corpus": 1.0,
+            "random": 0.06666666666666667,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.016666666666666666,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.3,
+            "rare_corpus": 1.0,
+            "random": 0.2,
+            "n": 10
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 21
+          }
+        }
+      }
+    }
+  },
+  "ii4_full_dedup": {
+    "42": {
+      "T1_suicidal_selfdestruct": {
+        "n": 18,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.0
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0,
+          "random": 0.4146941729706956
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.815897113747067,
+            "flip": 1.0
+          },
+          "random_same_count": {
+            "dconf": 0.00034459266397688125,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 3.814697265625e-06
+      },
+      "T2_prodigal_call": {
+        "n": 57,
+        "hit_rate_top5pct": {
+          "xvascot": 0.9473684210526315,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.15789473684210525
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.00023940627244433804,
+          "xvascot_v1": 0.0002530044275774826,
+          "raw_attn": 0.00023940627244433804,
+          "saliency": 0.0010792143319663286,
+          "random": 0.14352331606217616
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.20977925835994252,
+            "flip": 0.3157894736842105
+          },
+          "random_same_count": {
+            "dconf": 0.0019576800496954668,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 4.855850816705131e-11
+      },
+      "T3_greedy_counterfactual": {
+        "n": 24,
+        "dP_greedy_remove_release": 0.1853412950863079,
+        "dP_greedy_remove_random": -0.0009757930275592722,
+        "to_greedy_rate_release": 0.20833333333333334,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 5.960464477539063e-08
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.9565217391304348,
+            "rare_corpus": 0.9130434782608695,
+            "random": 0.2608695652173913,
+            "n": 23
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.8823529411764706,
+            "random": 0.058823529411764705,
+            "n": 17
+          },
+          "2": {
+            "xvascot": 0.9473684210526315,
+            "rare_corpus": 0.9649122807017544,
+            "random": 0.2631578947368421,
+            "n": 57
+          },
+          "3": {
+            "xvascot": 0.03333333333333333,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.15,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 3
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.05555555555555555,
+            "n": 18
+          },
+          "2": {
+            "xvascot": 0.25,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 8
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.2,
+            "n": 5
+          }
+        }
+      }
+    },
+    "123": {
+      "T1_suicidal_selfdestruct": {
+        "n": 20,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.1
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0,
+          "random": 0.38980848193165163
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.8399753600358963,
+            "flip": 1.0
+          },
+          "random_same_count": {
+            "dconf": -0.000177687406539917,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 9.5367431640625e-07
+      },
+      "T2_prodigal_call": {
+        "n": 44,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.20454545454545456
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0,
+          "random": 0.16399988494435713
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.6028482859784906,
+            "flip": 0.8636363636363636
+          },
+          "random_same_count": {
+            "dconf": 0.008013429289514368,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 5.684341886080802e-14
+      },
+      "T3_greedy_counterfactual": {
+        "n": 28,
+        "dP_greedy_remove_release": 0.17033857880908596,
+        "dP_greedy_remove_random": 0.001038361404261247,
+        "to_greedy_rate_release": 0.21428571428571427,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 4.659593105316162e-05
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.8846153846153846,
+            "rare_corpus": 0.9230769230769231,
+            "random": 0.38461538461538464,
+            "n": 26
+          },
+          "1": {
+            "xvascot": 0.6842105263157895,
+            "rare_corpus": 0.8421052631578947,
+            "random": 0.2631578947368421,
+            "n": 19
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.3181818181818182,
+            "n": 44
+          },
+          "3": {
+            "xvascot": 0.16666666666666666,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.08333333333333333,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 20
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 1
+          },
+          "3": {
+            "xvascot": 0.07692307692307693,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 13
+          }
+        }
+      }
+    },
+    "456": {
+      "T1_suicidal_selfdestruct": {
+        "n": 23,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.13043478260869565
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0008598452278589854,
+          "raw_attn": 0.0014402304368698992,
+          "saliency": 0.0,
+          "random": 0.5795356835769562
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.8983868930650794,
+            "flip": 0.9565217391304348
+          },
+          "random_same_count": {
+            "dconf": 0.0002985052440477454,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.1920928955078125e-07
+      },
+      "T2_prodigal_call": {
+        "n": 25,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.24
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.00024894199651481205,
+          "raw_attn": 0.0,
+          "saliency": 0.001047486033519553,
+          "random": 0.09057639524245197
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.6929566669464111,
+            "flip": 0.96
+          },
+          "random_same_count": {
+            "dconf": -0.0004855036735534668,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 2.9802322387695312e-08
+      },
+      "T3_greedy_counterfactual": {
+        "n": 26,
+        "dP_greedy_remove_release": 0.6088795593151679,
+        "dP_greedy_remove_random": 1.6949432882448982e-05,
+        "to_greedy_rate_release": 0.6923076923076923,
+        "to_greedy_rate_random": 0.038461538461538464,
+        "wilcoxon_p": 1.4901161193847656e-08
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9615384615384616,
+            "random": 0.34615384615384615,
+            "n": 26
+          },
+          "1": {
+            "xvascot": 0.8095238095238095,
+            "rare_corpus": 0.9047619047619048,
+            "random": 0.14285714285714285,
+            "n": 21
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.12,
+            "n": 25
+          },
+          "3": {
+            "xvascot": 0.21666666666666667,
+            "rare_corpus": 0.95,
+            "random": 0.11666666666666667,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.25,
+            "n": 4
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9565217391304348,
+            "random": 0.13043478260869565,
+            "n": 23
+          },
+          "2": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 1
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 13
+          }
+        }
+      }
+    },
+    "789": {
+      "T1_suicidal_selfdestruct": {
+        "n": 14,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 0.7857142857142857,
+          "raw_attn": 0.0,
+          "saliency": 1.0,
+          "random": 0.07142857142857142
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0016221891264649696,
+          "xvascot_v1": 0.03935686363884086,
+          "raw_attn": 0.1568374527263817,
+          "saliency": 0.008233836449650821,
+          "random": 0.3760321953451135
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.3134614591087614,
+            "flip": 0.42857142857142855
+          },
+          "random_same_count": {
+            "dconf": -0.0022664240428379606,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 6.103515625e-05
+      },
+      "T2_prodigal_call": {
+        "n": 40,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.275
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0006215510964060904,
+          "xvascot_v1": 0.0006215510964060904,
+          "raw_attn": 0.0006215510964060904,
+          "saliency": 0.0006215510964060904,
+          "random": 0.10026739292721759
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.7264588251709938,
+            "flip": 0.95
+          },
+          "random_same_count": {
+            "dconf": 0.002880129963159561,
+            "flip": 0.025
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 9.094947017729282e-13
+      },
+      "T3_greedy_counterfactual": {
+        "n": 36,
+        "dP_greedy_remove_release": 0.5261645584315475,
+        "dP_greedy_remove_random": -9.418615672984743e-05,
+        "to_greedy_rate_release": 0.5833333333333334,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 2.9103830456733704e-11
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.6571428571428571,
+            "rare_corpus": 0.9714285714285714,
+            "random": 0.2571428571428571,
+            "n": 35
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.8461538461538461,
+            "random": 0.15384615384615385,
+            "n": 13
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.325,
+            "n": 40
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.11666666666666667,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 5
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9285714285714286,
+            "random": 0.14285714285714285,
+            "n": 14
+          },
+          "2": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.2,
+            "n": 5
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 7
+          }
+        }
+      }
+    },
+    "2024": {
+      "T1_suicidal_selfdestruct": {
+        "n": 22,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.0
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0012930186823992135,
+          "saliency": 0.0,
+          "random": 0.3346993830853983
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.8043327724391763,
+            "flip": 1.0
+          },
+          "random_same_count": {
+            "dconf": 0.0009256316856904464,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 2.384185791015625e-07
+      },
+      "T2_prodigal_call": {
+        "n": 34,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.2647058823529412
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.001521321351134228,
+          "random": 0.11240920083571812
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.635217539527837,
+            "flip": 0.9705882352941176
+          },
+          "random_same_count": {
+            "dconf": 0.005590931457631728,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 5.820766091346741e-11
+      },
+      "T3_greedy_counterfactual": {
+        "n": 35,
+        "dP_greedy_remove_release": 0.36903120945873,
+        "dP_greedy_remove_random": 0.011463995329436979,
+        "to_greedy_rate_release": 0.37142857142857144,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 2.9103830456733704e-11
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.84375,
+            "rare_corpus": 0.9375,
+            "random": 0.15625,
+            "n": 32
+          },
+          "1": {
+            "xvascot": 0.8571428571428571,
+            "rare_corpus": 1.0,
+            "random": 0.09523809523809523,
+            "n": 21
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.35294117647058826,
+            "n": 34
+          },
+          "3": {
+            "xvascot": 0.11666666666666667,
+            "rare_corpus": 0.9333333333333333,
+            "random": 0.16666666666666666,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.25,
+            "n": 4
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9545454545454546,
+            "random": 0.09090909090909091,
+            "n": 22
+          },
+          "2": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 3
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0625,
+            "n": 16
+          }
+        }
+      }
+    }
+  },
+  "ii4_full_group": {
+    "42": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.03333333333333333
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.002398081534772182,
+          "raw_attn": 0.0,
+          "saliency": 0.007194244604316547,
+          "random": 0.5131894484412469
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.9927133331696193,
+            "flip": 1.0
+          },
+          "random_same_count": {
+            "dconf": 0.00017530421415964763,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.1926066978866813e-14
+      },
+      "T2_prodigal_call": {
+        "n": 40,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.3
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0006276240926034922,
+          "xvascot_v1": 0.0012642225031605564,
+          "raw_attn": 0.004109861328718753,
+          "saliency": 0.00071850940769235,
+          "random": 0.10977772030997034
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.4964714266359806,
+            "flip": 0.675
+          },
+          "random_same_count": {
+            "dconf": 0.0074088811874389645,
+            "flip": 0.025
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 9.094947017729282e-13
+      },
+      "T3_greedy_counterfactual": {
+        "n": 0,
+        "dP_greedy_remove_release": null,
+        "dP_greedy_remove_random": null,
+        "to_greedy_rate_release": null,
+        "to_greedy_rate_random": null,
+        "wilcoxon_p": null
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "1": {
+            "xvascot": 0.9833333333333333,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.85,
+            "random": 0.3,
+            "n": 40
+          },
+          "3": {
+            "xvascot": 0.08333333333333333,
+            "rare_corpus": 0.8666666666666667,
+            "random": 0.05,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.06666666666666667,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 5
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.95,
+            "random": 0.1,
+            "n": 20
+          }
+        }
+      }
+    },
+    "123": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 0.6833333333333333,
+          "raw_attn": 0.0,
+          "saliency": 0.9833333333333333,
+          "random": 0.06666666666666667
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.03513770180436847,
+          "raw_attn": 0.17188983855650522,
+          "saliency": 0.003798670465337132,
+          "random": 0.5056935026959009
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.8360602398713429,
+            "flip": 0.8666666666666667
+          },
+          "random_same_count": {
+            "dconf": 0.01022441436847051,
+            "flip": 0.016666666666666666
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 7.869640298645204e-12
+      },
+      "T2_prodigal_call": {
+        "n": 56,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 0.9464285714285714,
+          "raw_attn": 0.7321428571428571,
+          "saliency": 0.9821428571428571,
+          "random": 0.14285714285714285
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0005321277559649653,
+          "xvascot_v1": 0.010393057767293285,
+          "raw_attn": 0.022618128689694136,
+          "saliency": 0.0017526238163326007,
+          "random": 0.2510066483148232
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.52119380235672,
+            "flip": 0.6964285714285714
+          },
+          "random_same_count": {
+            "dconf": 0.004647001091923032,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 3.773749106575748e-11
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.3884462808258832,
+        "dP_greedy_remove_random": 0.008667048832285218,
+        "to_greedy_rate_release": 0.016666666666666666,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 1.1598738500433306e-11
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.03333333333333333,
+            "rare_corpus": 1.0,
+            "random": 0.08333333333333333,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.3333333333333333,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9285714285714286,
+            "random": 0.23214285714285715,
+            "n": 56
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.9166666666666666,
+            "random": 0.11666666666666667,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.03333333333333333,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.1,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.25,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 4
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 9
+          }
+        }
+      }
+    },
+    "456": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.016666666666666666
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0007651109410864575,
+          "random": 0.580336648814078
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.9977689385414124,
+            "flip": 1.0
+          },
+          "random_same_count": {
+            "dconf": -3.6597251892089843e-06,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 8.135001831514021e-12
+      },
+      "T2_prodigal_call": {
+        "n": 46,
+        "hit_rate_top5pct": {
+          "xvascot": 1.0,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.2608695652173913
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0011141343208899176,
+          "raw_attn": 0.0023757044197978147,
+          "saliency": 0.0,
+          "random": 0.18433963329542064
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.5014815809934036,
+            "flip": 0.9565217391304348
+          },
+          "random_same_count": {
+            "dconf": 0.00017755511014357856,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.4210854715202004e-14
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.10134335361326521,
+        "dP_greedy_remove_random": 0.00036807408835860166,
+        "to_greedy_rate_release": 0.16666666666666666,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 0.010200095461569185
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.8,
+            "random": 0.2,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.0,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.8478260869565217,
+            "random": 0.17391304347826086,
+            "n": 46
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.75,
+            "random": 0.08333333333333333,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.1,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.06666666666666667,
+            "n": 60
+          },
+          "2": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 2
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 6
+          }
+        }
+      }
+    },
+    "789": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 0.9333333333333333,
+          "xvascot_v1": 1.0,
+          "raw_attn": 1.0,
+          "saliency": 1.0,
+          "random": 0.08333333333333333
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.014462809917355372,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.008264462809917356,
+          "random": 0.53099173553719
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 0.09841267814238866,
+            "flip": 0.13333333333333333
+          },
+          "random_same_count": {
+            "dconf": -6.992518901824952e-05,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 1.1540200702168061e-12
+      },
+      "T2_prodigal_call": {
+        "n": 0,
+        "hit_rate_top5pct": {
+          "xvascot": null,
+          "xvascot_v1": null,
+          "raw_attn": null,
+          "saliency": null,
+          "random": null
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": null,
+          "xvascot_v1": null,
+          "raw_attn": null,
+          "saliency": null,
+          "random": null
+        },
+        "deletion": {
+          "signature": {
+            "dconf": null,
+            "flip": null
+          },
+          "random_same_count": {
+            "dconf": null,
+            "flip": null
+          }
+        }
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.026795322559519264,
+        "dP_greedy_remove_random": 0.069953730720979,
+        "to_greedy_rate_release": 0.0,
+        "to_greedy_rate_random": 0.08333333333333333,
+        "wilcoxon_p": 0.0067659579909528245
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.0,
+            "random": 0.06666666666666667,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 1.0,
+            "rare_corpus": 0.05,
+            "random": 0.13333333333333333,
+            "n": 60
+          },
+          "2": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.08,
+            "n": 50
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 1.0,
+            "rare_corpus": 1.0,
+            "random": 0.08333333333333333,
+            "n": 24
+          },
+          "1": {
+            "xvascot": 0.9333333333333333,
+            "rare_corpus": 0.9833333333333333,
+            "random": 0.016666666666666666,
+            "n": 60
+          },
+          "2": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 34
+          }
+        }
+      }
+    },
+    "2024": {
+      "T1_suicidal_selfdestruct": {
+        "n": 60,
+        "hit_rate_top5pct": {
+          "xvascot": 0.0,
+          "xvascot_v1": 0.0,
+          "raw_attn": 0.0,
+          "saliency": 0.0,
+          "random": 0.03333333333333333
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": 0.365814696485623,
+          "xvascot_v1": 0.7528022393887334,
+          "raw_attn": 0.7764215433040595,
+          "saliency": 0.7291880211338515,
+          "random": 0.5381541478615947
+        },
+        "deletion": {
+          "signature": {
+            "dconf": 2.5403499603271484e-05,
+            "flip": 0.0
+          },
+          "random_same_count": {
+            "dconf": -0.00011675655841827392,
+            "flip": 0.0
+          }
+        },
+        "wilcoxon_sig_vs_random_p": 0.001998511927543445
+      },
+      "T2_prodigal_call": {
+        "n": 0,
+        "hit_rate_top5pct": {
+          "xvascot": null,
+          "xvascot_v1": null,
+          "raw_attn": null,
+          "saliency": null,
+          "random": null
+        },
+        "best_signature_percentile_rank": {
+          "xvascot": null,
+          "xvascot_v1": null,
+          "raw_attn": null,
+          "saliency": null,
+          "random": null
+        },
+        "deletion": {
+          "signature": {
+            "dconf": null,
+            "flip": null
+          },
+          "random_same_count": {
+            "dconf": null,
+            "flip": null
+          }
+        }
+      },
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.00034100040526633774,
+        "dP_greedy_remove_random": -0.0002785858002122647,
+        "to_greedy_rate_release": 0.0,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 4.219907554842441e-07
+      },
+      "T4_specificity": {
+        "f1": {
+          "0": {
+            "xvascot": 0.06666666666666667,
+            "rare_corpus": 1.0,
+            "random": 0.2,
+            "n": 60
+          },
+          "1": {
+            "xvascot": 0.0,
+            "rare_corpus": 0.8333333333333334,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "3": {
+            "xvascot": 0.016666666666666666,
+            "rare_corpus": 0.8833333333333333,
+            "random": 0.03333333333333333,
+            "n": 60
+          }
+        },
+        "ff": {
+          "0": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 17
+          },
+          "1": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.05,
+            "n": 60
+          },
+          "2": {
+            "xvascot": null,
+            "rare_corpus": null,
+            "random": null,
+            "n": 0
+          },
+          "3": {
+            "xvascot": 0.0,
+            "rare_corpus": 1.0,
+            "random": 0.0,
+            "n": 11
+          }
+        }
+      }
+    }
+  },
+  "iir_full": {
+    "42": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.02432076297582831,
+        "dP_greedy_remove_random": 7.173137357389652e-05,
+        "to_greedy_rate_release": 0.03333333333333333,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.147778971559672e-12
+      }
+    },
+    "123": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.026580475931400914,
+        "dP_greedy_remove_random": 0.0006928518296030066,
+        "to_greedy_rate_release": 0.03333333333333333,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.147778971559672e-12
+      }
+    },
+    "456": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.02698448722567012,
+        "dP_greedy_remove_random": 0.0006537213347405921,
+        "to_greedy_rate_release": 0.03333333333333333,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 1.277553044610685e-10
+      }
+    }
+  },
+  "iir_full_dedup": {
+    "42": {
+      "T3_greedy_counterfactual": {
+        "n": 37,
+        "dP_greedy_remove_release": 0.06964911125219628,
+        "dP_greedy_remove_random": 0.0020876480360842637,
+        "to_greedy_rate_release": 0.10810810810810811,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.040442480705678e-07
+      }
+    },
+    "123": {
+      "T3_greedy_counterfactual": {
+        "n": 37,
+        "dP_greedy_remove_release": 0.026902977835156414,
+        "dP_greedy_remove_random": 0.0006559955446678447,
+        "to_greedy_rate_release": 0.13513513513513514,
+        "to_greedy_rate_random": 0.02702702702702703,
+        "wilcoxon_p": 7.787045148754368e-06
+      }
+    },
+    "456": {
+      "T3_greedy_counterfactual": {
+        "n": 36,
+        "dP_greedy_remove_release": 0.056069978496654786,
+        "dP_greedy_remove_random": 0.003214344219789685,
+        "to_greedy_rate_release": 0.08333333333333333,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 2.9613147489726543e-08
+      }
+    },
+    "789": {
+      "T3_greedy_counterfactual": {
+        "n": 39,
+        "dP_greedy_remove_release": 0.15845680767431355,
+        "dP_greedy_remove_random": 0.0006144834006257054,
+        "to_greedy_rate_release": 0.1794871794871795,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 6.002665031701326e-11
+      }
+    },
+    "2024": {
+      "T3_greedy_counterfactual": {
+        "n": 44,
+        "dP_greedy_remove_release": 0.15111929919591852,
+        "dP_greedy_remove_random": 0.00045756660917752674,
+        "to_greedy_rate_release": 0.20454545454545456,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 5.002220859751105e-12
+      }
+    }
+  },
+  "iir_full_group": {
+    "42": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 2.231559392384952e-06,
+        "dP_greedy_remove_random": 4.96005423732034e-06,
+        "to_greedy_rate_release": 0.0,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 0.0002701344277257006
+      }
+    },
+    "123": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.0015141160149748127,
+        "dP_greedy_remove_random": 0.00011663788657945891,
+        "to_greedy_rate_release": 0.0,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.147778971559672e-12
+      }
+    },
+    "456": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.06607772283312441,
+        "dP_greedy_remove_random": -0.002714940299336393,
+        "to_greedy_rate_release": 0.25,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 3.477414176591653e-05
+      }
+    },
+    "789": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.2790673354640603,
+        "dP_greedy_remove_random": 7.413755226176969e-05,
+        "to_greedy_rate_release": 0.06666666666666667,
+        "to_greedy_rate_random": 0.0,
+        "wilcoxon_p": 8.147778971559672e-12
+      }
+    },
+    "2024": {
+      "T3_greedy_counterfactual": {
+        "n": 60,
+        "dP_greedy_remove_release": 0.09328481546814753,
+        "dP_greedy_remove_random": 0.00941555200579387,
+        "to_greedy_rate_release": 0.16666666666666666,
+        "to_greedy_rate_random": 0.016666666666666666,
+        "wilcoxon_p": 0.9839037104371815
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "operand_pct": 44.124087704146575,
+  "truncated_pct": {
+    "safe": 47.25457570715474,
+    "greedy": 23.842917251051894
+  },
+  "greedy_test_with_train_twin_pct": 95.86776859504133,
+  "length_only_accuracy_pct": 85.88957055214725,
+  "majority_pct": 62.76762402088772
+}
